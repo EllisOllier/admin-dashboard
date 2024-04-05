@@ -11,23 +11,48 @@
     <title>Admin Dashboard</title>
 </head>
 <body>
-    <aside>
-        <div class="side side-title">
-            <button id="dashboard"><h2><span class="iconify" data-icon="mdi-view-dashboard"></span>Dashboard</h2></button>
-        </div>
-        <div class="side side-container-one">
-            <button id="home"><span class="iconify" data-icon="mdi-home-account"></span>Home</button>
-            <button id="profile"><span class="iconify" data-icon="mdi-card-account-details"></span>Profile</button>
-            <button id="messages"><span class="iconify" data-icon="mdi-message"></span>Messages</button>
-            <button id="history"><span class="iconify" data-icon="mdi-clock-time-nine"></span>History</button>
-            <button id="tasks"><span class="iconify" data-icon="mdi-calendar-check"></span>Tasks</button>
-            <button id="communication"><span class="iconify" data-icon="mdi-account-multiple"></span>Communication</button>
-        </div>
-        <div class="side side-container-two">
-            <button id="settings"><span class="iconify" data-icon="mdi-cog"></span>Settings</button>
-            <button id="support"><span class="iconify" data-icon="mdi-help-box"></span>Support</button>
-            <button id="privacy"><span class="iconify" data-icon="mdi-shield"></span>Privacy</button>
-        </div>
-    </aside>
+    <div class="main-container">
+        <aside>
+            <div class="side side-title">
+                <button id="dashboard"><h2><span class="iconify" data-icon="mdi-view-dashboard"></span>Dashboard</h2></button>
+            </div>
+            <div class="side side-container-one">
+                <button id="home"><span class="iconify" data-icon="mdi-home-account"></span>Home</button>
+                <button id="profile"><span class="iconify" data-icon="mdi-card-account-details"></span>Profile</button>
+                <button id="messages"><span class="iconify" data-icon="mdi-message"></span>Messages</button>
+                <button id="history"><span class="iconify" data-icon="mdi-clock-time-nine"></span>History</button>
+                <button id="tasks"><span class="iconify" data-icon="mdi-calendar-check"></span>Tasks</button>
+                <button id="communication"><span class="iconify" data-icon="mdi-account-multiple"></span>Communication</button>
+            </div>
+            <div class="side side-container-two">
+                <button id="settings"><span class="iconify" data-icon="mdi-cog"></span>Settings</button>
+                <button id="support"><span class="iconify" data-icon="mdi-help-box"></span>Support</button>
+                <button id="privacy"><span class="iconify" data-icon="mdi-shield"></span>Privacy</button>
+            </div>
+        </aside>
+    
+        <header>
+            <span class="search-bar-container">
+                <div class="iconify" data-icon="mdi-magnify"></div>
+                <div class="search-bar"></div>
+            </span>
+            <div class="welcome-user">
+                <img src="./imgs/profile-picture.jpg">
+                <p>Hi, there,</p>
+                <h3>Ellis Ollier (@ellisollier)</h3>
+            </div>
+            <div class="alerts-container">
+                <span class="iconify" data-icon="mdi-bell-ring-outline"></span>
+                <img src="./imgs/profile-picture.jpg">
+                <h3>Ellis Ollier</h3>
+            </div>
+            <div class="action-container">
+                <button>New</button>
+                <button>Upload</button>
+                <button>Share</button>
+            </div>
+        </header>
+    </div>
+    
 </body>
 </html>
