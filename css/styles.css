@@ -29,6 +29,7 @@ aside {
     background-color: transparent;
     border-radius: 5px;
     padding: 10px;
+    padding-left: 30px;
     color: white;
     font-size: 20px;
     text-align: start;
@@ -154,12 +155,13 @@ h3 {
 
     display: grid;
     grid-template-columns: 3fr 2fr;
-    grid-template-rows: 30px 1fr;
+    grid-template-rows: 40px 1fr;
 }
 
 .content-container h2 {
     align-self: end;
-    padding-left: 15px;
+    justify-self: start;
+    padding-left: 20px;
 }
 
 .project-container {
@@ -262,13 +264,20 @@ h3 {
 }
 
 .trending-card img {
-    height: 32px;
+    height: 48px;
     border-radius: 25px;
 }
-
 
 .user {
     display: flex;
     gap: 10px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+.user:last-child {
+    margin-bottom: 0;
+}
+
+.announcements-title, .trending-title {
+    margin-left: 50px
 }
