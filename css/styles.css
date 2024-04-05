@@ -1,0 +1,47 @@
+:root {
+    --default-font: Roboto, serif
+}
+
+* {
+    margin: 0;
+    font-family: var(--default-font);
+}
+
+.iconify {
+    padding-right: 15px;
+}
+
+aside {
+    width: 250px;
+    height: 100vh;
+    background-color: #0ea5e9;
+}
+
+.side > button {
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: start;
+}
+
+.side > button:hover {
+    background-color: #0284c7;
+}
+
+#dashboard {
+    width: 100%;
+}
+
+#dashboard, #communication {
+    margin-bottom: 50px;
+}
+
+.side-container-one, .side-container-two {
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: start;
+    gap: 10px;
+}
