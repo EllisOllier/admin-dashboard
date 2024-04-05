@@ -1,3 +1,3 @@
 Simple admin dashboard
 
-Created as part of The Odin Project
+Completed as part of The Odin Project
